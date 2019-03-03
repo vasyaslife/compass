@@ -2,21 +2,27 @@
   	font-family: "MuseoSansCyrl";
   	font-weight: 100;
 	font-style: normal;
-	src: url("../Fonts/MuseoSansCyrl 100.otf")  format("opentype"); /* Safari, Android, iOS */
+	src: url(../Fonts/MuseoSansCyrl-100.eot?) format("eot"), 
+         url(../Fonts/MuseoSansCyrl-100.woff) format("woff"), 
+         url(../Fonts/MuseoSansCyrl-100.ttf) format("truetype");
 }
 
 @font-face {
   	font-family: "MuseoSansCyrl";
   	font-weight: 100;
 	font-style: italic;
-	src: url("../Fonts/MuseoSansCyrl 100 Italic.otf")  format("opentype"); /* Safari, Android, iOS */
+	src: url(../Fonts/MuseoSansCyrl-100Italic.eot?) format("eot"), 
+         url(../Fonts/MuseoSansCyrl-100Italic.woff) format("woff"), 
+         url(../Fonts/MuseoSansCyrl-100Italic.ttf) format("truetype");
 }
 
 @font-face {
   	font-family: "MuseoSansCyrl";
   	font-weight: bold;
 	font-style: normal;
-	src: url("../Fonts/MuseoSansCyrl 900.otf")  format("opentype"); /* Safari, Android, iOS */
+	src: url(../Fonts/MuseoSansCyrl-900.eot?) format("eot"), 
+         url(../Fonts/MuseoSansCyrl-900.woff) format("woff"), 
+         url(../Fonts/MuseoSansCyrl-900.ttf) format("truetype");
 }
 
 button, h1, h2, h3, p, ul, li {
