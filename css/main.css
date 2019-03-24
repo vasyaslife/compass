@@ -116,7 +116,7 @@ header {
 
 .nav__item {
 	float: left;
-	margin-left: 5%;
+	margin-left: 0;
 }
 
 .nav__item:first-child {
