@@ -2,13 +2,13 @@ $(function(){
 
     $('i.fa-bars').click(function(){
         $('.nav-ham').toggleClass('nav-ham_show');
-    })
+    });
  
     $('i.scrollto').click(function(){
         var destination = $($(this).attr('data-scroll')).offset().top;
         jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 800);
         return false;
-    })
+    });
 
     $('.review-slick').slick({
         dots: true,
@@ -40,12 +40,13 @@ $(function(){
 
     $('i.fa-phone-volume').click(function(){
          $('#modalForm').arcticmodal();
-    })
+    });
 
     $('[data-submit]').click(function(e){
         e.preventDefault();
         $(this).parent('form').submit();
-    })
+    });
+
     $.validator.addMethod(
         "regex",
         function(value, element, regexp) {
@@ -121,6 +122,7 @@ $(function(){
                                 $('#overlay').fadeOut();
                             });    
                         });
+                        break;
                     case'popupResult':
                         $.ajax({
                             type: 'POST',
