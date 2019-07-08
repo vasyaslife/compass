@@ -2,27 +2,27 @@
   	font-family: "MuseoSansCyrl";
   	font-weight: 100;
 	font-style: normal;
-	src: url(../Fonts/MuseoSansCyrl-100.eot?) format("eot"), 
-         url(../Fonts/MuseoSansCyrl-100.woff) format("woff"), 
-         url(../Fonts/MuseoSansCyrl-100.ttf) format("truetype");
+	src: url(../fonts/MuseoSansCyrl-100.eot?) format("eot"), 
+         url(../fonts/MuseoSansCyrl-100.woff) format("woff"), 
+         url(../fonts/MuseoSansCyrl-100.ttf) format("truetype");
 }
 
 @font-face {
   	font-family: "MuseoSansCyrl";
   	font-weight: 100;
 	font-style: italic;
-	src: url(../Fonts/MuseoSansCyrl-100Italic.eot?) format("eot"), 
-         url(../Fonts/MuseoSansCyrl-100Italic.woff) format("woff"), 
-         url(../Fonts/MuseoSansCyrl-100Italic.ttf) format("truetype");
+	src: url(../fonts/MuseoSansCyrl-100Italic.eot?) format("eot"), 
+         url(../fonts/MuseoSansCyrl-100Italic.woff) format("woff"), 
+         url(../fonts/MuseoSansCyrl-100Italic.ttf) format("truetype");
 }
 
 @font-face {
   	font-family: "MuseoSansCyrl";
   	font-weight: bold;
 	font-style: normal;
-	src: url(../Fonts/MuseoSansCyrl-900.eot?) format("eot"), 
-         url(../Fonts/MuseoSansCyrl-900.woff) format("woff"), 
-         url(../Fonts/MuseoSansCyrl-900.ttf) format("truetype");
+	src: url(../fonts/MuseoSansCyrl-900.eot?) format("eot"), 
+         url(../fonts/MuseoSansCyrl-900.woff) format("woff"), 
+         url(../fonts/MuseoSansCyrl-900.ttf) format("truetype");
 }
 
 button, h1, h2, h3, p, ul, li {
@@ -230,7 +230,7 @@ header {
 }
 
 
-#adv {
+#plus {
 	padding-top: 80px;
 	padding-bottom: 94px;
 
@@ -253,11 +253,11 @@ header {
 	color: #fff;
 }
 
-.adv__list {
+.plus__list {
 	margin-top: 65px;
 }
 
-.adv__item {
+.plus__item {
 	height: 355px;
 	width: 100%;
 	background: #f4f4f4;
@@ -269,7 +269,7 @@ header {
 	
 }
 
-.adv__img {
+.plus__img {
 	position: absolute;
 	background: url(../img/hands.png) center center no-repeat;
 	width: 97px;
@@ -279,15 +279,15 @@ header {
 	top: 50px;
 }
 
-.adv__img_doc {
+.plus__img_doc {
 	background: url(../img/doc.png) center center no-repeat;
 }
 
-.adv__img_people {
+.plus__img_people {
 	background: url(../img/people.png) center center no-repeat;
 }
 
-.adv__content {
+.plus__content {
 	padding-top: 160px;
 }
 
@@ -299,7 +299,7 @@ h4 {
 	margin: 0;
 }
 
-.adv__title:after {
+.plus__title:after {
 	content: '';
 	display: block;
 	width: 37px;
@@ -309,7 +309,7 @@ h4 {
 	margin-top: 18px;
 }
 
-.adv__text {
+.plus__text {
 	width: 290px;
 	margin: 0 auto;
 	margin-top: 22px;
